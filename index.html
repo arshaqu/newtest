@@ -1,4 +1,4 @@
-[2:31 PM, 7/8/2026] Buraq Number: <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -159,6 +159,9 @@
   .form-head h2{font-size:20px; font-weight:700; margin-bottom:6px;}
   .form-head p{font-size:13.5px; color:var(--steel);}
 
+  .hero-form{max-width:none; margin:0; padding:28px 26px 24px; align-self:start;}
+  .hero-form .form-head h2{font-size:19px;}
+
   .field{margin-bottom:16px;}
   .field label{display:block; font-family:'IBM Plex Mono', monospace; font-size:11.5px; text-transform:uppercase; letter-spacing:.05em; color:var(--steel); margin-bottom:6px;}
   .field label .req{color:var(--amber-dark);}
@@ -240,7 +243,7 @@
 <body>
 
   <header>
-    <div class="logo"><img src="./assets/" alt="Buraq Star Trading Co. LLC"></div>
+    <div class="logo"><img src="./assets/buraq_Logo.jpeg" alt="Buraq Star Trading Co. LLC"></div>
     <div class="nav-actions">
       <a href="https://wa.me/971565471232" target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm"><span class="dot"></span>WhatsApp Sales</a>
       <a href="#quote-form" class="btn btn-amber btn-sm">Request Quote</a>
@@ -258,80 +261,9 @@
         <li><span class="tick">✓</span> Bulk Supply Support</li>
         <li><span class="tick">✓</span> Project Requirements</li>
       </ul>
-      <div class="hero-ctas">
-        <a href="#quote-form" class="btn btn-amber">Request Product Quote</a>
-        <a href="https://wa.me/971565471232" target="_blank" rel="noopener" class="btn btn-whatsapp"><span class="dot"></span>WhatsApp Sales Team</a>
-      </div>
+   
     </div>
-    <div class="showcase">
-      <div class="showcase-label">Product Showcase</div>
-      <div class="showcase-grid">
-        <div class="showcase-tile"><img src="/assets/electric.jpeg" alt="Product showcase 1"></div>
-        <div class="showcase-tile"><img src="/assets/Lighit.jpeg" alt="Product showcase 2"></div>
-        <div class="showcase-tile"><img src="/assets/Ventilation.jpeg" alt="Product showcase 3"></div>
-        <div class="showcase-tile"><img src="/assets/Sanitary.jpeg" alt="Product showcase 4"></div>
-        <div class="showcase-tile"><img src="/assets/Gardening.jpeg" alt="Product showcase 5"></div>
-        <div class="showcase-tile"><img src="/assets/Tool.jpeg" alt="Product showcase 6"></div>
-      </div>
-    </div>
-  </section>
-
-  <section class="trusted">
-    <div class="trusted-label">Trusted By Businesses</div>
-    <div class="logo-strip">
-      <div class="logo-chip"><img style="width: 145px; height: 55px; padding: 10px;" src="/assets/novexabout.png" alt="Product showcase 1"></div>
-      <div class="logo-chip"><img style="width: 145px; height: 45px; padding: 6px;" src="/assets/Buraq.png" alt="Product showcase 2"></div>
-      <div class="logo-chip"><img style="width: 150px; height: 45px; padding: 5px;" src="/assets/Cavil.jpeg" alt="Product showcase 3"></div>
-      <div class="logo-chip"><img style="width: 150px; height: 45px; padding: 5px;" src="/assets/Zilco.jpeg" alt="Product showcase 4"></div>
-    </div>
-  </section>
-
-  <section class="categories">
-    <div class="section-head">
-      <div class="eyebrow">Product Range</div>
-      <h2>Find The Products You Need</h2>
-    </div>
-    <div class="cat-grid">
-      <div class="cat-card"><span class="icon">⚡</span><h3>Electrical Products</h3><p>Switches, wiring, cables, distribution boards &amp; switchgear.</p></div>
-      <div class="cat-card"><span class="icon">💡</span><h3>Lighting Solutions</h3><p>LED, panel, flood, emergency, decorative &amp; commercial lighting.</p></div>
-      <div class="cat-card"><span class="icon">🌬️</span><h3>Ventilation Solutions</h3><p>Exhaust, ceiling, wall &amp; industrial fans, ventilation systems.</p></div>
-      <div class="cat-card"><span class="icon">🚿</span><h3>Sanitary Products</h3><p>Sanitary ware, wash basins, bathroom fittings &amp; shower accessories.</p></div>
-      <div class="cat-card"><span class="icon">🔧</span><h3>Power Tools</h3><p>Power tools, hand tools &amp; hardware accessories.</p></div>
-      <div class="cat-card"><span class="icon">🌱</span><h3>Gardening Tools</h3><p>Garden hand tools, cutting tools &amp; landscaping equipment.</p></div>
-    </div>
-  </section>
-
-  <section class="why">
-    <div class="section-head">
-      <div class="eyebrow on-dark">The Buraq Star Advantage</div>
-      <h2>Why Businesses Choose Buraq Star</h2>
-    </div>
-    <div class="why-grid">
-      <div class="why-item"><span class="tick">✓</span><p>Wide Product Range</p></div>
-      <div class="why-item"><span class="tick">✓</span><p>Competitive Trade Pricing</p></div>
-      <div class="why-item"><span class="tick">✓</span><p>Reliable Product Availability</p></div>
-      <div class="why-item"><span class="tick">✓</span><p>Support For Contractors &amp; Projects</p></div>
-    </div>
-  </section>
-
-  <section class="serve">
-    <div class="section-head">
-      <div class="eyebrow">Our Customers</div>
-      <h2>Who We Serve</h2>
-    </div>
-    <div class="serve-grid">
-      <div class="serve-chip">Contractors</div>
-      <div class="serve-chip">Trading Companies</div>
-      <div class="serve-chip">Retailers</div>
-      <div class="serve-chip">Project Owners</div>
-      <div class="serve-chip">Consultants</div>
-      <div class="serve-chip">Facility Management</div>
-      <div class="serve-chip">Landscaping Companies</div>
-    </div>
-  </section>
-
-  <section class="quote-section" id="quote-form">
-    <div class="form-card">
+    <div class="form-card hero-form" id="quote-form">
       <div class="form-head">
         <h2>Request Product Quote</h2>
         <p>Get pricing, availability and product support from our sales team.</p>
@@ -422,6 +354,60 @@
     </div>
   </section>
 
+  <section class="trusted">
+    <div class="trusted-label">Trusted By Businesses</div>
+    <div class="logo-strip">
+      <div class="logo-chip"><img style="width: 145px; height: 55px; padding: 10px;" src="/assets/novexabout.png" alt="Product showcase 1"></div>
+      <div class="logo-chip"><img style="width: 145px; height: 45px; padding: 6px;" src="/assets/Buraq.png" alt="Product showcase 2"></div>
+      <div class="logo-chip"><img style="width: 150px; height: 45px; padding: 5px;" src="/assets/Cavil.jpeg" alt="Product showcase 3"></div>
+      <div class="logo-chip"><img style="width: 150px; height: 45px; padding: 5px;" src="/assets/Zilco.jpeg" alt="Product showcase 4"></div>
+    </div>
+  </section>
+
+  <section class="categories">
+    <div class="section-head">
+      <div class="eyebrow">Product Range</div>
+      <h2>Find The Products You Need</h2>
+    </div>
+    <div class="cat-grid">
+      <div class="cat-card"><span class="icon">⚡</span><h3>Electrical Products</h3><p>Switches, wiring, cables, distribution boards &amp; switchgear.</p></div>
+      <div class="cat-card"><span class="icon">💡</span><h3>Lighting Solutions</h3><p>LED, panel, flood, emergency, decorative &amp; commercial lighting.</p></div>
+      <div class="cat-card"><span class="icon">🌬️</span><h3>Ventilation Solutions</h3><p>Exhaust, ceiling, wall &amp; industrial fans, ventilation systems.</p></div>
+      <div class="cat-card"><span class="icon">🚿</span><h3>Sanitary Products</h3><p>Sanitary ware, wash basins, bathroom fittings &amp; shower accessories.</p></div>
+      <div class="cat-card"><span class="icon">🔧</span><h3>Power Tools</h3><p>Power tools, hand tools &amp; hardware accessories.</p></div>
+      <div class="cat-card"><span class="icon">🌱</span><h3>Gardening Tools</h3><p>Garden hand tools, cutting tools &amp; landscaping equipment.</p></div>
+    </div>
+  </section>
+
+  <section class="why">
+    <div class="section-head">
+      <div class="eyebrow on-dark">The Buraq Star Advantage</div>
+      <h2>Why Businesses Choose Buraq Star</h2>
+    </div>
+    <div class="why-grid">
+      <div class="why-item"><span class="tick">✓</span><p>Wide Product Range</p></div>
+      <div class="why-item"><span class="tick">✓</span><p>Competitive Trade Pricing</p></div>
+      <div class="why-item"><span class="tick">✓</span><p>Reliable Product Availability</p></div>
+      <div class="why-item"><span class="tick">✓</span><p>Support For Contractors &amp; Projects</p></div>
+    </div>
+  </section>
+
+  <section class="serve">
+    <div class="section-head">
+      <div class="eyebrow">Our Customers</div>
+      <h2>Who We Serve</h2>
+    </div>
+    <div class="serve-grid">
+      <div class="serve-chip">Contractors</div>
+      <div class="serve-chip">Trading Companies</div>
+      <div class="serve-chip">Retailers</div>
+      <div class="serve-chip">Project Owners</div>
+      <div class="serve-chip">Consultants</div>
+      <div class="serve-chip">Facility Management</div>
+      <div class="serve-chip">Landscaping Companies</div>
+    </div>
+  </section>
+
   <section class="assist">
     <h2>Need Quick Assistance?</h2>
     <p>Chat directly with our sales team</p>
@@ -434,13 +420,10 @@
   </section>
 
   <footer>
-    <span>© Buraq Star Trading LLC</span>
+    <span>© Buraq Star Trading LLC - Wholesale Division</span>
+   
     <div class="footer-links">
-      <span>Phone</span>
-      <span>WhatsApp</span>
-      <span>Email</span>
-      <span>Location</span>
-      <span>Social Media</span>
+     <span>Electrical · Sanitary · Hardware · UAE-Wide Delivery</span>
     </div>
   </footer>
 
